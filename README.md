@@ -61,9 +61,9 @@ chmod a+x caddy (run this if the permissions isn't what is listed above)
 ```
 CADDY_HTTP_PORT=8080
 CADDY_HTTPS_PORT=8443
-DUCKDNS_DOMAIN="https://YOUR_DUCKDSN_SUB_DOMAIN.duckdns.org"
-EMAIL="YOUR EMAIL ADDRESS"
-DUCKDNS_TOKEN="YOUR DUCK DNS TOKEN"
+DUCKDNS_DOMAIN="https://YOUR_DUCK_DNS_SUB_DOMAIN.duckdns.org"
+EMAIL="YOUR_EMAIL_ADDRESS"
+DUCKDNS_TOKEN="YOUR_DUCK_DNS_TOKEN"
 ```
 13. Create and start up Vaultwarden with the Caddy web server.
 ```
