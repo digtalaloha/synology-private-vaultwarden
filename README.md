@@ -14,7 +14,7 @@ I referenced the following links for much of the setup description below.
 ## Directions
 
 ### YouTube Video
-If you would like to have directions in video format then check out my video that runs through the setup.
+If you would like directions in visual format then check out my YouTube video that runs through the setup.
 * [Run Your Own Private Vaultwarden Instance With Docker-Compose And Git On Your Synology NAS](https://youtu.be/pH_LZVfuSWo)
 
 ### Prerequistes
