@@ -13,13 +13,17 @@ I referenced the following links for much of the setup description below.
 
 ## Directions
 
+### YouTube Video
+If you would like to have directions in video format then check out my video that runs through the setup.
+* [Run Your Own Private Vaultwarden Instance With Docker-Compose And Git On Your Synology NAS](https://youtu.be/pH_LZVfuSWo)
+
 ### Prerequistes
 On your Synology NAS you'll need to do the following:
 1. Install the Docker package.
 2. Install the Git Server package.
 3. Enable SSH.
 
-### Setup Steps
+### Setup Steps 
 1. SSH into your Synology NAS.
 ```
 ssh <admin account>@<IP address of Synology NAS>
