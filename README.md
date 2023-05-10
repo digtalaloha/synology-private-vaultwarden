@@ -1,4 +1,4 @@
-# Run A Private, LAN Access Only, Instance Of Vaultwarden On A Synology NAS With Docker-Compose And Duck DNS.
+# Run A Private, LAN Access Only, Instance Of Vaultwarden On A Synology NAS With Docker-Compose And Duck DNS
 
 ## Description
 
