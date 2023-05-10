@@ -1,4 +1,4 @@
-# Run A Private, LAN Access Only, Instance Of Vaultwarden On A Synology NAS With Docker-Compose
+# Run A Private, LAN Access Only, Instance Of Vaultwarden On A Synology NAS With Docker-Compose And Duck DNS.
 
 ## Description
 
@@ -45,10 +45,10 @@ cd synology-private-vaultwarden
 mkdir vw-data caddy-config caddy-data
 ```
 7. Go to [Duck DNS](https://www.duckdns.org) and do the following:
-   a. Sign in or create a new account.
-   b. Ceate a sub domain you would like to use (example http://vw-daloha.duckdns.org).
-   c. Enter in the private IP address of your Synology NAS in the current ip box (example 10.0.4.33) and click update ip.
-   d. Make note of the token (you'll need this later).
+   1. Sign in or create a new account.
+   2. Ceate a sub domain you would like to use (example http://vw-daloha.duckdns.org).
+   3. Enter in the private IP address of your Synology NAS in the current ip box (example 10.0.4.33) and click update ip.
+   4. Make note of the token (you'll need this later).
 8. Download Caddy with DNS challenge module for Duck DNS from this link -> [Caddy Download Page](https://caddyserver.com/download).
    * Make sure to select the platform Linux amd64, select caddy-dns/duckdns, then click Download.
 9. Upload the Caddy file you just downloaded to your Synology NAS to the /volume1/docker/synology-private-vaultwarden directory.  
